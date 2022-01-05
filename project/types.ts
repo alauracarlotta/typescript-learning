@@ -6,7 +6,7 @@ isPar = false;
 
 // ===> STRING ('foo', "foo", `foo`)  <===
 let message: string = "Eu amo açaí";
-message = 0 // erro
+// message = 0 // erro
 message = 'foo';
 message = "foo";
 message = `foo ${isPar} `;
@@ -26,7 +26,7 @@ let values: Array<string> = ['Mozilla', 'Opera', 'Edge']; //generic
 
 // ===> TUPLA = ARRAY[] QUE EU JÁ SEI QUANTOS ITENS TEM <===
 let title: [string, number] = ["O Nome do vento", 2002];
-let title1: [string, number] = [2002, "O Nome do vento"]; // erro -> ordem invertida
+// let title1: [string, number] = [2002, "O Nome do vento"]; // erro -> ordem invertida
 
 
 // ===> ENUM = CHAVE/VALOR => FACILITA O ENTENDIMENTO PARA O USUÁRIO, ou seja, passamos para o usuário os nomes das cores(exemplo), mas para o sistema, passamos o número hexadecimal <===
